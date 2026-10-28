@@ -118,6 +118,7 @@ button { font: inherit; }
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+.resource-icon svg.filled { fill: currentColor; stroke: none; }
 .project-links a:hover .resource-icon,
 .project-links a:focus-visible .resource-icon {
   background: var(--accent);

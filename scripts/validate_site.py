@@ -45,14 +45,11 @@ def main():
         "assets/MoRE-GS-supplementary.pdf",
         "assets/method.png",
         "assets/lego-forecast-loop.mp4",
-        "assets/standup-horizon-loop.mp4",
         "assets/chicken-horizon-loop.mp4",
-        "assets/printer-horizon-loop.mp4",
-        "assets/horizon-results.png",
-        "assets/long-horizon-results.png",
-        "assets/router-visualization.png",
         "assets/slider-chicken-ode.png",
         "assets/slider-chicken-moregs.png",
+        "assets/slider-standup-ode.png",
+        "assets/slider-standup-moregs.png",
     ]
     for relative in required:
         if not (DIST / relative).is_file():
